@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOSDGPSDKATO'
-  s.version          = '1.27.0.300'
+  s.version          = '1.27.0.301'
   s.summary          = 'IOS SDK DIGIPRO Formatos Electrónicos (Attachment Objects)'
   s.description      = <<-DESC
 El Attachment object framework es utilizado para la generación de formatos electrónicos.
@@ -20,7 +20,7 @@ El Attachment object framework es utilizado para la generación de formatos elec
   s.source           = { :git => 'https://github.com/jviloriam/IOSDGPSDKATO.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.swift_versions = '5.0'
-  s.public_header_files = "DIGIPROSDKATO.framework/Headers/*.h"
-  s.source_files = "DIGIPROSDKATO.framework/Headers/*.h"
-  s.vendored_frameworks = "DIGIPROSDKATO.framework"
+  s.public_header_files = "DIGIPROSDKATO.framework/Headers/*.h, Finjinon.framework/Headers/*.h, WeScan.framework/Headers/*.h"
+  s.source_files = "DIGIPROSDKATO.framework/Headers/*.h, Finjinon.framework/Headers/*.h, WeScan.framework/Headers/*.h"
+  s.vendored_frameworks = "DIGIPROSDKATO.framework, Finjinon.framework, WeScan.framework"
 end
