@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOSDGPSDKATO'
-  s.version          = '1.27.0.400'
+  s.version          = '1.27.0.500'
   s.summary          = 'IOS SDK DIGIPRO Formatos Electrónicos (Attachment Objects)'
   s.description      = <<-DESC
 El Attachment object framework es utilizado para la generación de formatos electrónicos.

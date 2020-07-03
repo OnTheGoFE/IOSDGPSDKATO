@@ -250,10 +250,12 @@ SWIFT_CLASS("_TtC13DIGIPROSDKATO5OCRVC")
 @class UITableView;
 @class UITableViewCell;
 
-@interface OCRVC (SWIFT_EXTENSION(DIGIPROSDKATO)) <UITableViewDataSource>
+@interface OCRVC (SWIFT_EXTENSION(DIGIPROSDKATO)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
