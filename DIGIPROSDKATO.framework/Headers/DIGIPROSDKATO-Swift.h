@@ -261,6 +261,8 @@ SWIFT_CLASS("_TtC13DIGIPROSDKATO5OCRVC")
 
 
 
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
