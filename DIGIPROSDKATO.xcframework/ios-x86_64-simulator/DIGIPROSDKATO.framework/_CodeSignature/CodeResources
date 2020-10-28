@@ -6,15 +6,15 @@
 	<dict>
 		<key>CggiJXwCzEnbAVz.nib</key>
 		<data>
-		dnrYdkJqbNSO2pyUNsErTiAcdws=
+		wRoGd6z9emfDMH2v0UMfTfXLvSY=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
 		<data>
-		+gU1pVsetqsL5LYb2FUe3iZmY+Q=
+		H5CP0jCtxmucct+xaEbI4kKWH9A=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		iDr20ZgBJjaASeqW+yuYDmKEGCA=
+		fp+BleYZoj33oypeY6a84zRJlS4=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		7aQyKfKUbBAE+afboBS4rVk76ZU=
+		aZADB9+gZs4cTH5Wb4yN3BDB2kw=
 		</data>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/DIGIPROSDKATO-Swift.h</key>
 		<data>
-		nf01JBqkNejt53mM4SSJ7zpFhuI=
+		F6FplM2TzZu8uLW0q5o0keY1XKM=
 		</data>
 		<key>Headers/DIGIPROSDKATO.h</key>
 		<data>
@@ -70,43 +70,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d3QLyZsilWLd7ewWFF9iQ5NGG4I=
+		3EFd+bb/rHtwbglPdo8wBRpCOJI=
 		</data>
 		<key>KHFSnImyzOBlprQ.nib</key>
 		<data>
-		22WFrTbmVS6G+/fd5dPZXvJriDc=
+		/ueEMlMKCYdPE9x+NZ6jP/hVkpE=
+		</data>
+		<key>MDSBusMdlrJCpBZ.nib</key>
+		<data>
+		UKWjJUbQMAvavanr9/LqQM6kjAM=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		e06r3+aC/KuPS3JBUYMNvTkflJ0=
+		49VzAf1hKUc8aO9X3mLP6tyC87g=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		e06r3+aC/KuPS3JBUYMNvTkflJ0=
+		49VzAf1hKUc8aO9X3mLP6tyC87g=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yBiXmi2NLK4uOsAMfd6sFq3yoHY=
+		Wu3PdXOosAnDye6hd53mXoEWR2w=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FeOb9XuWQliL9D25kzY00ylkegw=
+		C3zmTxZHXxO2FcMGPDQu52Fi5ZI=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5kFgGhoBqeG6w0eXbncSEErGyX8=
+		IC8in2YHAZKkgzfAiiD5SirXH+U=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		yBiXmi2NLK4uOsAMfd6sFq3yoHY=
+		Wu3PdXOosAnDye6hd53mXoEWR2w=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		FeOb9XuWQliL9D25kzY00ylkegw=
+		C3zmTxZHXxO2FcMGPDQu52Fi5ZI=
 		</data>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		5kFgGhoBqeG6w0eXbncSEErGyX8=
+		IC8in2YHAZKkgzfAiiD5SirXH+U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,87 +118,91 @@
 		</data>
 		<key>MzNwLeqNlBEoMbg.nib</key>
 		<data>
-		iVTjbSg1oJAMq5naA7QPv9V44/k=
+		76/ndXVXI4SA/TICqQXhMLQPivU=
 		</data>
 		<key>OazKxFFqktwcNlC.nib</key>
 		<data>
-		0SGDl5NH/mu+vGBpD+Md4IH6Zws=
+		IHSc9UCd378B7FKXhK+lmj2ujt0=
 		</data>
 		<key>QLNfacJcdoNYMaI.nib</key>
 		<data>
-		HkTAqmjOY/vyOBbojseRB+zzVT8=
+		WY1CuTO1nL5r/51FrclvBtlXSVI=
 		</data>
 		<key>RgXLPUFFKIxaadQ.nib</key>
 		<data>
-		EydaRTHMTOYOhQ4zDn9767alfDI=
+		H55yglPhEiItVAEMzKfVC9bI5VY=
 		</data>
 		<key>WkvQfEJcVZMMkqD.nib</key>
 		<data>
-		GrcpBBN0MiIIXl8mKiTihL/mrkM=
+		bbGcbWO69o0ehe/CzzqY+2igiwQ=
 		</data>
 		<key>YfsTRkBRznxuitQ.nib/objects-13.0+.nib</key>
 		<data>
-		5IY7UdrQ3FpFKpN1DmvXUCHmR/o=
+		UuZu1t0can2lwHamlgkn9+WAwB0=
 		</data>
 		<key>YfsTRkBRznxuitQ.nib/runtime.nib</key>
 		<data>
-		cdEEN9iU4i3eFaAPpOTldBJEkQw=
+		NgtTJHx/VVUcv38o4CRBElZmCuk=
 		</data>
 		<key>ZwVvzocbowppujZ.nib</key>
 		<data>
-		Uux77D7q5mC3TSiDl2dpuBn43SU=
+		d/PtFwnWYtyJ4R4kZSGhwuolyYA=
 		</data>
 		<key>aRKQbPJWgNiGmqb.nib</key>
 		<data>
-		Suc0a8UIxWpTiY9eSps67tLYFl4=
+		3+1H2C2WUNvMWhhiEW0x7jNih9M=
+		</data>
+		<key>awMdUkgDJMDqOzZ.nib</key>
+		<data>
+		NrcOVGiNDmyOl0ASyB/rDmvFC8I=
 		</data>
 		<key>eSsJnfvToaWKxor.nib</key>
 		<data>
-		bebFyvYqhHjGUmA/7QUR7lfWS2s=
+		64gbnCxsIZyZNsU4RvbRLfe5qbE=
 		</data>
 		<key>iwUpUkgDJLRqOzY.nib</key>
 		<data>
-		aWQjEbJvTFPMeoZMYt7bfwRhGug=
+		FIaEnj7XbRRrPAA0Qz5/MP7GTRA=
 		</data>
 		<key>jdHSbEmnEarRIBF.nib</key>
 		<data>
-		wi4/vJvet3oGXfG/AwihRahE31M=
+		UBE2Nwru2L0vhZE05+DMoaOIi+A=
 		</data>
 		<key>lDPqDIgEpijhPZI.nib</key>
 		<data>
-		0uEDrA8nWGtn2mSNHNCXQWGviBc=
+		QU1Dnl26VbR1Y/i1BSUh3KzBbyc=
 		</data>
 		<key>ojIjkWPlBaDFLlD.nib</key>
 		<data>
-		AZ1nA6Zy3KrqY+HEjehBQyjgGOU=
+		utRn6lgfuEAANeBNtCG+/HD21Nc=
 		</data>
 		<key>qBucBDHXkgXnZgS.nib</key>
 		<data>
-		MuxQYY8Jfuv8dWW8gwuhpzDeNlU=
+		IxQvDsWFzvSMJnVP2GxSxmvaluA=
 		</data>
 		<key>rKJYWVchwPLcXXS.nib</key>
 		<data>
-		e+9qnL2u6fz6Ep19KZhDEkKFSM4=
+		c2zT6BDSgL64wyMSm31Sq7eRbpY=
 		</data>
 		<key>rKuejXCAoLjkcqe.nib</key>
 		<data>
-		c/DOMBwlVHhP0YCtQoG/2mekMmk=
+		e4+jsc41KV1PqIWghvqqA8BVjLc=
 		</data>
 		<key>vDndloQPRpDwkSO.nib/objects-12.3+.nib</key>
 		<data>
-		8dMC8dhFJItgynIgE4PzQeGb+uU=
+		fiH+Iw9po4BzGiCCmanmIq0n1DQ=
 		</data>
 		<key>vDndloQPRpDwkSO.nib/runtime.nib</key>
 		<data>
-		ppVLV9Rx5yALGkqXP25rDWpFG5M=
+		0/GCpxc33Wctf3IXR2JNQp73cEs=
 		</data>
 		<key>vWslQCnQjKrAoxn.nib</key>
 		<data>
-		xXCHAzCS0hDj93rpBgcXsGgJ2t0=
+		3uec1b+Z17bFIgagL8OBaxcj/3A=
 		</data>
 		<key>wpyHdfkvlpabZRY.nib</key>
 		<data>
-		BzDIeW+oDAASQMVXU5DI7Mf5UOA=
+		lfbncGzYQ01tWY0Hbga2CLpcOes=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -203,21 +211,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VSeV7iiMK87ayv852I1Z3KPSFSdZBqt8dVkkJHqHcI=
+			+PJb6+beeP1rf6xiiAtKBcG7XW0nIx3jYf+OZPzzFe8=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aNh8zV6SY3PpCQZJ1mwuT6jj78iE0b/XwYXNmqIph50=
+			5V5ekPgBvVwo7hfkSqE7864IYKXfhInkW+fiY1jkTis=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qula/7IRpENpWEb7/fhB/cN2goJ+EDqLjdWJlRw872Q=
+			TVJgvsxvu8lqpjlfmxMqwvvZ0msQuAdh9jPMLd4yTh4=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -231,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			561m2o/nBM/FA+1t5Qq4qy32a/QAD1LN3D3Zco8nnOk=
+			Ev5pXhG2EnrJtLPfmeepMTz7AZmjGUv5LHccriyAHDc=
 			</data>
 		</dict>
 		<key>GoogleMVTextDetectorResources.bundle/_CodeSignature/CodeResources</key>
@@ -301,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dlf4On7jHgaRt7PL/cFeVb/qs3Ruw4VJX9f5h07QpMY=
+			TEv0OsBuelK/OKJWsDistW37FW1MTYsmYQVd3JAz76M=
 			</data>
 		</dict>
 		<key>Headers/DIGIPROSDKATO.h</key>
@@ -315,63 +323,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wy3Lvkn4c/xlIQu3KiQfGf8jsvEZjFxslhPRNzf0/Uw=
+			QX6iT0/PNeAyPjpZpai6C2tuDzcrGV4wNVCUsQ0kMAA=
+			</data>
+		</dict>
+		<key>MDSBusMdlrJCpBZ.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S/hQTV2aNWY+memccud3FDH+5CCMsMBO+EV0mOhDMJU=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJpN584HKB6bcjY/g1UVEbedPu5pl76LOC2zZJTc/EE=
+			ND8W+uD4yInCvyqEumc7dUK3GAf0aUvwcTGccKpyYA0=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJpN584HKB6bcjY/g1UVEbedPu5pl76LOC2zZJTc/EE=
+			ND8W+uD4yInCvyqEumc7dUK3GAf0aUvwcTGccKpyYA0=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWlXrZsamnYs4X/J3xKnEx6lBcAwVP+5fokHMDk2LR0=
+			4pbyfaFBxwvyHEPqapSu7kTIlovVryL71E0HwKswy6A=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvITeKIsh+rNOZS7dcThFUXukGkYLB4HN81LBC4s4T8=
+			Efg1Bzzz/ECvLZXV6FMsSsyN7NqrnBX7VTVjuXC8n8Y=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v16UEOBoADC7C6t8mvmmfL6V58VlRQE4uWlqCzkNf38=
+			pJhZEaikDx2iSzJH0ksIT7OxrdQTpkw6uZGtYO26p3s=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWlXrZsamnYs4X/J3xKnEx6lBcAwVP+5fokHMDk2LR0=
+			4pbyfaFBxwvyHEPqapSu7kTIlovVryL71E0HwKswy6A=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvITeKIsh+rNOZS7dcThFUXukGkYLB4HN81LBC4s4T8=
+			Efg1Bzzz/ECvLZXV6FMsSsyN7NqrnBX7VTVjuXC8n8Y=
 			</data>
 		</dict>
 		<key>Modules/DIGIPROSDKATO.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v16UEOBoADC7C6t8mvmmfL6V58VlRQE4uWlqCzkNf38=
+			pJhZEaikDx2iSzJH0ksIT7OxrdQTpkw6uZGtYO26p3s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -385,147 +400,154 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			og39Zw6eV0KuqMegQYdEL/mBQ02H37cJHXhLJHer3pY=
+			pBBR2R9/tpZPBrrsOVwd/H4WqMEki+XTc2l0hVbp1e8=
 			</data>
 		</dict>
 		<key>OazKxFFqktwcNlC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uw0+DZBaAf+CEG/HBaorC5cEJBgZFjOoRhN+QzeRSd8=
+			sw5F57s6TS/KDNnzw1c/vU1OZ849aVRGe3BAjSA4G0c=
 			</data>
 		</dict>
 		<key>QLNfacJcdoNYMaI.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+sGgRGZW8Uwxv9JLSU/g1N1CiqNwR3o7o6QzcHfRds=
+			HdIXVoljbYbd/7bOytEpqItrPlGUrZSpsaGbZOXpph8=
 			</data>
 		</dict>
 		<key>RgXLPUFFKIxaadQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1i+Tg977yHnecqVd/7XjDW2MsSHZ0vWotfiQV4xkzQ=
+			WCsrckEpEC3BasmTfcDz5AIo7fSw74tk9E/bj5Nt74E=
 			</data>
 		</dict>
 		<key>WkvQfEJcVZMMkqD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CGHJDOpTPrSZde8mY7hRgfCGxn69+u9N1hJ2EjKNOPE=
+			BgYljVWwXZsPvayIP07UyXA62RoCTchAVZrGICdq6/s=
 			</data>
 		</dict>
 		<key>YfsTRkBRznxuitQ.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifl9kMwkqA+LvVd1zbt614lo54yy6A4756zgaKx4nPc=
+			ZbQ/J2C12EjQNYkyBYm26T1yz3EJ5fdWtZopYcR8Mdo=
 			</data>
 		</dict>
 		<key>YfsTRkBRznxuitQ.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRnsUMJLIyi0J9wULPeQprg/FNpQaGWUpKjd4W4kXqo=
+			Z0Gxe1KVV6TbTVGL9Qp5sIj9WVyCgBkXOiX7qDuftWU=
 			</data>
 		</dict>
 		<key>ZwVvzocbowppujZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+lxLxIIbjbMjHCrrR16b8AL3MVDeVhswo2VZeDpSLp4=
+			1SLV0kbeqRBZgJvrleSobUIN0OQJbiMD03dX49ta6XM=
 			</data>
 		</dict>
 		<key>aRKQbPJWgNiGmqb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VK2MZwoPkxWY2cvkxUYFmU+XAlYmsd/4wDvNt9EpiiE=
+			xUmEIDBmiDHla9XqU9KJgapGcSe/vjFWiH9VMdVM9vA=
+			</data>
+		</dict>
+		<key>awMdUkgDJMDqOzZ.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RWbQMEADLTath2Baq5f6PTujHmCzuyNT/GBgGRUECi0=
 			</data>
 		</dict>
 		<key>eSsJnfvToaWKxor.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avy/m+uwPKDUA1FKQQPtAAILkZw4B2JIt7k91275RfU=
+			6rDNAMqZq4tA9HdFdj/uyMPxVtlzb5JB4Fwv/X1Z2bc=
 			</data>
 		</dict>
 		<key>iwUpUkgDJLRqOzY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xlZHQ+L6NU1ik+k+vn3G7k8bT/lJ8ZXSrY04fDpxPBs=
+			PRO/rxWspMIDnUbut5x8m474lsntmUTepLDZA8KeJxU=
 			</data>
 		</dict>
 		<key>jdHSbEmnEarRIBF.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JCzFUqHnzPT5Kb23Qv8tAQB2sONt6oyb42RVeUTOiA=
+			Xpl62gR3pfu58DqxbEgbBAhGHT1fR6OymNeBC4cUz88=
 			</data>
 		</dict>
 		<key>lDPqDIgEpijhPZI.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0qfNkNtQcFDcbJus/v7G04da+P/HqIJNDlh/oReYUk=
+			nys0fDTL6XZN0uX5csWEPDMMQW9HDIhx/w4T28mszY0=
 			</data>
 		</dict>
 		<key>ojIjkWPlBaDFLlD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VawCeBNqG2PMjx6T7eiRWZX8tgkuPV4fU3bSYccouL8=
+			wnQajnv7frxKuI5RKe61GlOPvNCulVTnUheLSpqpcoQ=
 			</data>
 		</dict>
 		<key>qBucBDHXkgXnZgS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PImvt7zc6PTvlh4Svm4fIstKgVyO9aINLUl2FnwRYXE=
+			RADJyZd0erItdX8nB7uYZJ4Kl8FM3CmSAOFJ7H86rIw=
 			</data>
 		</dict>
 		<key>rKJYWVchwPLcXXS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXgQe8KBSeWnOs4koBIzlWgfwCsn+2mDj28BmxnocgQ=
+			4BtqCxs0puw8V8DOvJiMn5cjpg6KhUna+9GON/gLheQ=
 			</data>
 		</dict>
 		<key>rKuejXCAoLjkcqe.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g0Uh/y3XKe47DfMujMu7dJgCr15xPBdeN02qr49Itws=
+			4JYupUnfpoUv2UAeWtXsghd1LqP6GJ14KATXXkdbQfY=
 			</data>
 		</dict>
 		<key>vDndloQPRpDwkSO.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mm1aQJK0nZoI7XEmebu53wRqCIXgECHPiwLifwJTLgM=
+			fQ1kreRUGj3vS6RqU33H33WwLNFP84rRu3sHpZl4v/g=
 			</data>
 		</dict>
 		<key>vDndloQPRpDwkSO.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qmqq8WzOsrIlpseFRcPjq3UROoNXM8uMWOQZbUWQiHU=
+			5eqxbXRP8uhwN52qCcHtG8PLokMeT/vTy5m1+VzjzDM=
 			</data>
 		</dict>
 		<key>vWslQCnQjKrAoxn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j06G8IEzrWelLjFD55D00d8JqtuVJb1Ql7usxHe2ea8=
+			3RvQDZxvsSMivwb1tLBsMB0PKpWnrMSThoyfOum5vSE=
 			</data>
 		</dict>
 		<key>wpyHdfkvlpabZRY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPo9U9mmL7i+kuoeERhD+BXkzOUlu9hAZ/OToPLXypE=
+			Ox0dZIAaYWuwz0VNNJYbnUna02twIDLPSJhMBLx/rU8=
 			</data>
 		</dict>
 	</dict>

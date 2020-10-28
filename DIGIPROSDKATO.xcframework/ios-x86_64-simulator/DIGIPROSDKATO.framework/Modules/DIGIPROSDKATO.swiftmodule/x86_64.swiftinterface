@@ -17,7 +17,6 @@ import Security
 import Swift
 import UIKit
 import Vision
-import WeScan
 @_inheritsConvenienceInitializers public class _ServicioRowOf<T> : Eureka.Row<DIGIPROSDKATO.ServicioCell>, Eureka.KeyboardReturnHandler where T : Swift.Equatable {
   open var keyboardReturnType: Eureka.KeyboardReturnTypeConfiguration?
   open var presentationMode: Eureka.PresentationMode<UIKit.UIViewController>?
@@ -71,6 +70,7 @@ import WeScan
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
   public var rulesOnProperties: [(xml: DIGIPROSDK.AEXMLElement, vrb: Swift.String)]
   public var rulesOnChange: [DIGIPROSDK.AEXMLElement]
+  public var filtroCombo: [Swift.String]
   public var elemento: DIGIPROSDK.Elemento
   public var atributos: DIGIPROSDK.Atributos_codigobarras?
   public var genericRow: DIGIPROSDKATO.CodigoBarrasRow! {
@@ -598,12 +598,6 @@ extension DocumentoCell {
   @objc public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
   @objc deinit
 }
-extension ImagenCell : WeScan.ImageScannerControllerDelegate {
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFinishScanningWithObject results: WeScan.WeScanImageObject)
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFailWithError error: Swift.Error)
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFinishScanningWithResults results: WeScan.ImageScannerResults)
-  public func imageScannerControllerDidCancel(_ scanner: WeScan.ImageScannerController)
-}
 extension ImagenCell : DIGIPROSDK.ObjectFormDelegate {
   public func setEstadistica()
   public func setTextStyle(_ style: Swift.String)
@@ -663,6 +657,7 @@ extension ImagenCell : DIGIPROSDK.MetaFormDelegate {
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
   public var rulesOnProperties: [(xml: DIGIPROSDK.AEXMLElement, vrb: Swift.String)]
   public var rulesOnChange: [DIGIPROSDK.AEXMLElement]
+  public var filtroCombo: [Swift.String]
   public var elemento: DIGIPROSDK.Elemento
   public var atributos: DIGIPROSDK.Atributos_codigoqr?
   public var genericRow: DIGIPROSDKATO.CodigoQRRow! {
@@ -774,6 +769,7 @@ extension CodigoQRCell {
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
   public var rulesOnProperties: [(xml: DIGIPROSDK.AEXMLElement, vrb: Swift.String)]
   public var rulesOnChange: [DIGIPROSDK.AEXMLElement]
+  public var filtroCombo: [Swift.String]
   public var elemento: DIGIPROSDK.Elemento
   public var atributos: DIGIPROSDK.Atributos_escanerNFC?
   public var genericRow: DIGIPROSDKATO.EscanerNFCRow! {
@@ -869,8 +865,6 @@ extension EscanerNFCCell {
   public var onDismissCallback: ((UIKit.UIViewController) -> ())?
   public var serviceId: Swift.Int
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
-  public var imageINEAnversoObject: WeScan.WeScanImageObject
-  public var imageINEReversoObject: WeScan.WeScanImageObject
   public var objectOCRINE: DIGIPROSDK.OcrIneObject?
   public var objectOCRPasaporte: DIGIPROSDK.OcrPasaporteObject?
   public var objectOCRCfe: DIGIPROSDK.OcrCfeObject?
@@ -889,12 +883,6 @@ extension EscanerNFCCell {
   @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
   public typealias RowValue = Swift.String
-}
-extension OCRVC : WeScan.ImageScannerControllerDelegate {
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFailWithError error: Swift.Error)
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFinishScanningWithResults results: WeScan.ImageScannerResults)
-  public func imageScannerController(_ scanner: WeScan.ImageScannerController, didFinishScanningWithObject results: WeScan.WeScanImageObject)
-  public func imageScannerControllerDidCancel(_ scanner: WeScan.ImageScannerController)
 }
 @_inheritsConvenienceInitializers public class CalculadoraCell : Eureka.Cell<Swift.String>, Eureka.CellType, UIKit.UITextViewDelegate {
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
@@ -1158,6 +1146,20 @@ extension MapaCell : DIGIPROSDK.MetaFormDelegate {
   public func didSave()
   public func didUpdateData(_ tipoDoc: Swift.String, _ idDoc: Swift.Int)
 }
+@_inheritsConvenienceInitializers open class _MarcadoDocumentoRowOf<T> : Eureka.Row<DIGIPROSDKATO.MarcadoDocumentoCell> where T : Swift.Equatable {
+  open var presentationMode: Eureka.PresentationMode<UIKit.UIViewController>?
+  open var onPresentCallback: ((Eureka.FormViewController, Eureka.SelectorViewController<Eureka.SelectorRow<DIGIPROSDKATO._MarcadoDocumentoRowOf<T>.Cell>>) -> Swift.Void)?
+  open var customController: DIGIPROSDKATO.MarcadoDocumentoViewController?
+  required public init(tag: Swift.String?)
+  override open func customDidSelect()
+  override open func customUpdateCell()
+  override open func prepare(for segue: UIKit.UIStoryboardSegue)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers final public class MarcadoDocumentoRow : DIGIPROSDKATO._MarcadoDocumentoRowOf<Swift.String>, Eureka.RowType {
+  @objc deinit
+  required public init(tag: Swift.String?)
+}
 @_inheritsConvenienceInitializers open class _MapaRowOf<T> : Eureka.Row<DIGIPROSDKATO.MapaCell>, Eureka.KeyboardReturnHandler where T : Swift.Equatable {
   open var keyboardReturnType: Eureka.KeyboardReturnTypeConfiguration?
   open var presentationMode: Eureka.PresentationMode<UIKit.UIViewController>?
@@ -1168,6 +1170,76 @@ extension MapaCell : DIGIPROSDK.MetaFormDelegate {
 @_inheritsConvenienceInitializers final public class MapaRow : DIGIPROSDKATO._MapaRowOf<Swift.String>, Eureka.RowType {
   @objc deinit
   required public init(tag: Swift.String?)
+}
+@_inheritsConvenienceInitializers open class MarcadoDocumentoCell : Eureka.Cell<Swift.String>, Eureka.CellType {
+  public var elemento: DIGIPROSDK.Elemento
+  public var atributos: DIGIPROSDK.Atributos_marcadodocumentos?
+  public var genericRow: DIGIPROSDKATO.MarcadoDocumentoRow! {
+    get
+  }
+  public var gralButton: DIGIPROSDK.DLRadioButton
+  public var catOptionCheck: [DIGIPROSDK.FEItemCatalogo]
+  public var catOptionCheck2: [DIGIPROSDK.FEListTipoDoc]
+  public var formDelegate: DIGIPROSDK.FormularioDelegate?
+  public var rulesOnProperties: [(xml: DIGIPROSDK.AEXMLElement, vrb: Swift.String)]
+  public var rulesOnChange: [DIGIPROSDK.AEXMLElement]
+  public var rulesOnAction: [DIGIPROSDK.AEXMLElement]
+  public var isInfoToolTipVisible: Swift.Bool
+  public var toolTip: DIGIPROSDK.EasyTipView?
+  public var est: DIGIPROSDK.FEEstadistica?
+  public func setObject(obj: DIGIPROSDK.Elemento)
+  override open func update()
+  @objc required dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  override open func setup()
+  @objc public func setAyuda(_ sender: Any)
+  override open func didSelect()
+  @objc @IBAction public func selectedButton(radioButton: DIGIPROSDK.DLRadioButton, isRobot: Swift.Bool)
+  @objc deinit
+}
+extension MarcadoDocumentoCell : DIGIPROSDK.ObjectFormDelegate {
+  public func setEstadistica()
+  public func setTextStyle(_ style: Swift.String)
+  public func setDecoration(_ decor: Swift.String)
+  public func setAlignment(_ align: Swift.String)
+  public func setVariableHeight(Height h: CoreGraphics.CGFloat)
+  public func setTitleText(_ text: Swift.String)
+  public func setSubtitleText(_ text: Swift.String)
+  public func setHeightFromTitles()
+  public func setPlaceholder(_ text: Swift.String)
+  public func setInfo()
+  public func toogleToolTip(_ help: Swift.String)
+  public func setMessage(_ string: Swift.String, _ state: DIGIPROSDK.enumErrorType)
+  public func initRules()
+  public func setMinMax()
+  public func setExpresionRegular()
+  public func setOcultarTitulo(_ bool: Swift.Bool)
+  public func setOcultarSubtitulo(_ bool: Swift.Bool)
+  public func setOcultarMsjOpcionCatalogo(_ text: Swift.String)
+  public func setHabilitado(_ bool: Swift.Bool)
+  public func setEdited(v: Swift.String)
+  public func setEdited(v: Swift.String, isRobot: Swift.Bool = false)
+  public func setVisible(_ bool: Swift.Bool)
+  public func resetValidation()
+  public func setDefaultValue()
+  public func setRequerido(_ bool: Swift.Bool)
+  public func updateIfIsValid(isDefault: Swift.Bool = false)
+  public func setValuesList()
+  public func triggerEvent(_ action: Swift.String)
+  public func setRulesOnProperties()
+  public func triggerRulesOnProperties(_ action: Swift.String)
+  public func setRulesOnChange()
+  public func triggerRulesOnChange(_ action: Swift.String?)
+  public func triggerRulesOnAction(_ action: Swift.String?)
+  public func setMathematics(_ bool: Swift.Bool, _ id: Swift.String)
+}
+extension MarcadoDocumentoCell {
+  public func getMessageText() -> Swift.String
+  public func getRowEnabled() -> Swift.Bool
+  public func getRequired() -> Swift.Bool
+  public func getTitleLabel() -> Swift.String
+  public func getSubtitleLabel() -> Swift.String
+  public func getTxtInput() -> Swift.String
 }
 @_inheritsConvenienceInitializers open class VideoCell : Eureka.Cell<Swift.String>, Eureka.CellType, DIGIPROSDK.APIDelegate, UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
   public var isPlayingVideo: Swift.Bool
@@ -1262,6 +1334,24 @@ extension VideoCell : DIGIPROSDK.MetaFormDelegate {
   public func didClose()
   public func didSave()
   public func didUpdateData(_ tipoDoc: Swift.String, _ idDoc: Swift.Int)
+}
+@_inheritsConvenienceInitializers public class MarcadoDocumentoViewController : Eureka.FormViewController, Eureka.TypedRowControllerType, UIKit.UINavigationControllerDelegate, UIKit.UISearchBarDelegate {
+  public var row: Eureka.RowOf<Swift.String>!
+  public var onDismissCallback: ((UIKit.UIViewController) -> ())?
+  public var atributos: DIGIPROSDK.Atributos_marcadodocumentos?
+  @objc @IBAction public func cerrarAction(_ sender: Any)
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewDidLayoutSubviews()
+  public func initForm(_ form: Eureka.Form)
+  @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
+  @objc deinit
+  override public init(style: UIKit.UITableView.Style)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  public typealias RowValue = Swift.String
 }
 @_inheritsConvenienceInitializers open class _FirmaFadRowOf<T> : Eureka.Row<DIGIPROSDKATO.FirmaFadCell>, Eureka.KeyboardReturnHandler where T : Swift.Equatable {
   open var keyboardReturnType: Eureka.KeyboardReturnTypeConfiguration?
