@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IOSDGPSDKATO'
-  s.version          = '1.27.3.901'
+  s.version          = '1.27.3.902'
   s.summary          = 'IOS SDK DIGIPRO Formatos Electrónicos (Attachment Objects)'
   s.description      = <<-DESC
 El Attachment object framework es utilizado para la generación de formatos electrónicos.
@@ -21,6 +21,6 @@ El Attachment object framework es utilizado para la generación de formatos elec
 end
 
 # cd /Users/jonathanviloriam/Documents/Swift/Github/IOSDGPSDKATO
-# pod trunk push IOSDGPSDKATO.podspec --allow-warnings 
+# pod trunk push IOSDGPSDKATO.podspec --allow-warnings
 # pod trunk push IOSDGPSDKATO.podspec
 # pod update IOSDGPSDKATO
