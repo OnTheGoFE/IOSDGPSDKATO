@@ -18,6 +18,7 @@ import Security
 import Swift
 import UIKit
 import Vision
+import VisionKit
 @_inheritsConvenienceInitializers public class _ServicioRowOf<T> : Eureka.Row<DIGIPROSDKATO.ServicioCell>, Eureka.KeyboardReturnHandler where T : Swift.Equatable {
   open var keyboardReturnType: Eureka.KeyboardReturnTypeConfiguration?
   open var presentationMode: Eureka.PresentationMode<UIKit.UIViewController>?
@@ -381,6 +382,7 @@ extension ServicioCell : DIGIPROSDK.AttachedFormDelegate {
   public func savingData()
   public func setPermisoTipificar(_ bool: Swift.Bool)
   public func getTipificacionPermitida()
+  public func executeAnimation()
   @objc deinit
 }
 extension FirmaFadCell : DIGIPROSDK.ObjectFormDelegate {
@@ -1233,6 +1235,7 @@ extension MarcadoDocumentoCell : DIGIPROSDK.ObjectFormDelegate {
   public func triggerRulesOnChange(_ action: Swift.String?)
   public func triggerRulesOnAction(_ action: Swift.String?)
   public func setMathematics(_ bool: Swift.Bool, _ id: Swift.String)
+  public func executeAnimation()
 }
 extension MarcadoDocumentoCell {
   public func getMessageText() -> Swift.String
@@ -1336,7 +1339,7 @@ extension VideoCell : DIGIPROSDK.MetaFormDelegate {
   public func didSave()
   public func didUpdateData(_ tipoDoc: Swift.String, _ idDoc: Swift.Int)
 }
-@_inheritsConvenienceInitializers public class MarcadoDocumentoViewController : Eureka.FormViewController, Eureka.TypedRowControllerType, UIKit.UINavigationControllerDelegate, UIKit.UISearchBarDelegate {
+@objc @_inheritsConvenienceInitializers public class MarcadoDocumentoViewController : Eureka.FormViewController, Eureka.TypedRowControllerType, UIKit.UINavigationControllerDelegate, UIKit.UISearchBarDelegate {
   public var row: Eureka.RowOf<Swift.String>!
   public var onDismissCallback: ((UIKit.UIViewController) -> ())?
   public var atributos: DIGIPROSDK.Atributos_marcadodocumentos?

@@ -191,6 +191,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import CoreGraphics;
 @import CoreMedia;
+@import Eureka;
 @import Foundation;
 @import UIKit;
 #endif
@@ -210,8 +211,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UITableView;
+@class UITableViewCell;
+@class UISearchBar;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC13DIGIPROSDKATO30MarcadoDocumentoViewController")
+@interface MarcadoDocumentoViewController : FormViewController <UINavigationControllerDelegate, UISearchBarDelegate>
+- (IBAction)cerrarAction:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class AVCaptureOutput;
 @class AVCaptureConnection;
 @protocol UIViewControllerTransitionCoordinator;
@@ -229,8 +247,6 @@ SWIFT_CLASS("_TtC13DIGIPROSDKATO5OCRVC")
 @end
 
 
-@class UITableView;
-@class UITableViewCell;
 
 @interface OCRVC (SWIFT_EXTENSION(DIGIPROSDKATO)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
