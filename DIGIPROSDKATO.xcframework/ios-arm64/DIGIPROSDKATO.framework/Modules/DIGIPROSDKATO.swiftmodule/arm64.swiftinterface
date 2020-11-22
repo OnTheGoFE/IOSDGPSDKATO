@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name DIGIPROSDKATO
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name DIGIPROSDKATO
 import AVFoundation
 import AVKit
 import AudioToolbox
@@ -884,8 +884,8 @@ extension EscanerNFCCell {
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @objc override dynamic public func didReceiveMemoryWarning()
   @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
-  @objc deinit
   public typealias RowValue = Swift.String
+  @objc deinit
 }
 @_inheritsConvenienceInitializers public class CalculadoraCell : Eureka.Cell<Swift.String>, Eureka.CellType, UIKit.UITextViewDelegate {
   public var formDelegate: DIGIPROSDK.FormularioDelegate?
@@ -1351,10 +1351,10 @@ extension VideoCell : DIGIPROSDK.MetaFormDelegate {
   @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
   @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @objc public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
-  @objc deinit
   override public init(style: UIKit.UITableView.Style)
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
   public typealias RowValue = Swift.String
 }
 @_inheritsConvenienceInitializers open class _FirmaFadRowOf<T> : Eureka.Row<DIGIPROSDKATO.FirmaFadCell>, Eureka.KeyboardReturnHandler where T : Swift.Equatable {
